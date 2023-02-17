@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-int n;
+int n = 0;
 /* your code goes there */
 if (n > 0)
 {
