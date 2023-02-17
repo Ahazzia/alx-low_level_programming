@@ -9,7 +9,13 @@
 */
 int main(void)
 {
-int n = 0;
+int a = 1103515245;  /* multiplier */
+int c = 12345;/* increment */
+int m = 2147483648;  /* modulus */
+int x = time(NULL);  /* seed */
+int n;
+x = (a * x + c) % m;  /* update seed */
+n = x % 100; /* generate a random integer between 0 and 99 inclusive */
 /* your code goes there */
 if (n > 0)
 {
