@@ -1,14 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - entry
- * Return: (0) for success
+* main - prints the alphabet in lowercase, followed by a new line
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-char lower;
-for (lower = 'a'; lower <= 'z'; lower++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar (lower);
+if (c != 'q' && c != 'e')
+{
+putchar(c);
+}
 }
 putchar('\n');
 return (0);
