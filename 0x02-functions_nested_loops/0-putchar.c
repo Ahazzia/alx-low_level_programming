@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<time.h>
+#include<main.h>
 #include<stdlib.h>
 /**
  * main - entry point
@@ -9,6 +9,6 @@
 */
 int main(void)
 {
-printf("_putchar\n");
+putchar("_putchar\n");
 return (0);
 }
