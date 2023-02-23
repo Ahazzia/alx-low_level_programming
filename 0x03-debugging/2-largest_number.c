@@ -8,17 +8,20 @@
  */
 int largest_number(int a, int b, int c)
 {
-// initialize largest
-int largest = a;
-if (!(largest >= b))
+int largest;
+
+if (a >= b && a >= c)
 {
-    largest = b;
+largest = a;
 }
-if (!(largest >= c))
+if (b >= a && b >= c)
+{
+largest = b;
+}
+else
 {
 largest = c;
 }
 
 return (largest);
 }
-
