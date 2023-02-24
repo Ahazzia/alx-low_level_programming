@@ -7,11 +7,11 @@
 
 void print_numbers(void)
 {
-int a;
-
-if (a >= 0 && a <= 9)
+int c;
+c = '0';
+if (c >= '0' && c <= '9')
 {
-_putchar(a + '0');
+_putchar(c + '0');
 _putchar('\n');
 }
 }
