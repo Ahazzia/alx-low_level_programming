@@ -11,7 +11,7 @@ int a;
 
 if (a >= 0 && a <= 9)
 {
-_putchar(i + '0');
+_putchar(a + '0');
 _putchar('\n');
 }
 }
