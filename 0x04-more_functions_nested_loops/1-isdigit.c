@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * _isdigit - functions ckecks if c is digit
+ * @c : is going to be used for check ups
+ * Return: returns 1 if it's digit
+ */
+int _isdigit(int c)
+{
+	if (c >= 'a' && c >= 'z')
+		return (0);
+	else
+		return (1);
+}
