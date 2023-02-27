@@ -3,7 +3,7 @@
 /**
  * puts_half - prints half of a string
  * @str: variable pointer
- * Return: a certain valur 
+ * Return: a certain value
  */
 void puts_half(char *str)
 {
