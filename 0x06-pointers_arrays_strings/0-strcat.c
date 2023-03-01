@@ -2,6 +2,8 @@
 
 /**
  * _strcat - the function adds two string
+ * @dest: var 1
+ * @src: var 2
  * Return: 0 for success
  */
 
